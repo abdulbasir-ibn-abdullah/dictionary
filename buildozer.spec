@@ -47,7 +47,7 @@ android.ndk = 25b
 # "master" hozir standart sifatida Python 3.14'ni maqsad qiladi, u esa
 # Kivy 2.3.0 bilan mos emas (compile xatolari beradi). Shu sababli
 # Python 3.11'ni standart qilib ishlatgan eski, barqaror relizga pin qilamiz.
-p4a.branch = 2024.01.21
+p4a.branch = v2024.01.21
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 android.private_storage = True
