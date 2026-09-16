@@ -43,6 +43,12 @@ android.minapi = 24
 # (str) Android NDK version to use
 android.ndk = 25b
 
+# (str) python-for-android branch/tag to use.
+# "master" hozir standart sifatida Python 3.14'ni maqsad qiladi, u esa
+# Kivy 2.3.0 bilan mos emas (compile xatolari beradi). Shu sababli
+# Python 3.11'ni standart qilib ishlatgan eski, barqaror relizga pin qilamiz.
+p4a.branch = 2024.01.21
+
 # (bool) Use --private data storage (True) or --dir public storage (False)
 android.private_storage = True
 
